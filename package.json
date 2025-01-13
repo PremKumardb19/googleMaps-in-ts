@@ -1,0 +1,21 @@
+{
+  "name": "maps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@googlemaps/js-api-loader": "^1.16.8",
+    "@types/google.maps": "^3.51.0"
+  },
+  "devDependencies": {
+    "@types/faker": "^6.6.11",
+    "@types/node": "^22.10.5"
+  }
+}
